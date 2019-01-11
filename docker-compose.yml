@@ -1,0 +1,16 @@
+version: '3'
+services:
+  db:
+    image: postgres
+    expose:
+      - "5432"
+  nightingale:
+    image: adammitre/nightingale:connectathon19-01
+    ports:
+      - "80:3000"
+    depends_on:
+      - db
+  smart:
+    image: adammitre/nightingale-smart:connectathon19-01
+    ports:
+      - "81:80"
