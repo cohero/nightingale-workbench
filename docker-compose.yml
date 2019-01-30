@@ -11,6 +11,6 @@ services:
     depends_on:
       - db
   smart:
-    image: adammitre/nightingale-smart:connectathon19-01
+    image: adammitre/nightingale-smart:connectathon19-02
     ports:
       - "81:80"
