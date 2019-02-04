@@ -14,3 +14,7 @@ services:
     image: adammitre/nightingale-smart:connectathon19-02
     ports:
       - "81:80"
+  canary:
+    image: adammitre/canary:02-04-19
+    ports:
+      - "82:80"
