@@ -4,11 +4,11 @@ This repository includes a docker-compose configuration that allows you to quick
 
 On startup:
 
-Nightingale is accessible at `http://localhost:80` (or `http://<docker-container-ip>:80`, if using Docker Toolbox). This address includes the FHIR endpoint (`http://localhost:80/fhir/v1/death_records.json`), for GETing and POSTing FHIR death records.
+Nightingale is accessible at [http://localhost:80](http://localhost:80) (or `http://<docker-container-ip>:80`, if using Docker Toolbox). This address includes the FHIR endpoint (`http://localhost:80/fhir/v1/death_records.json`), for GETing and POSTing FHIR death records.
 
-The SMART on FHIR Death Certification app is accessible at `http://localhost:81` (or `http://<docker-container-ip>:81`, if using Docker Toolbox).
+The SMART on FHIR Death Certification app is accessible at [http://localhost:81](http://localhost:81) (or `http://<docker-container-ip>:81`, if using Docker Toolbox).
 
-Canary is accessable at `http://localhost:82` (or `http://<docker-container-ip>:82`, if using Docker Toolbox).
+Canary is accessable at [http://localhost:82](http://localhost:82) (or `http://<docker-container-ip>:82`, if using Docker Toolbox).
 
 ## Deployment Instructions
 
