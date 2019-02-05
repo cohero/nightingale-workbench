@@ -1,6 +1,6 @@
 # nightingale-workbench
 
-This repository includes a docker-compose configuration that allows you to quickly spin up a copy of [Nightingale](https://github.com/nightingaleproject/nightingale), the [SMART on FHIR Death Certification app](https://github.com/nightingaleproject/fhir-death-refactor), and the Canary Testing Framework [Canary](https://github.com/nightingaleproject/canary) using Docker + Docker Compose for **experimental purposes**.
+This repository includes a docker-compose configuration that allows you to quickly spin up a copy of [Nightingale](https://github.com/nightingaleproject/nightingale), the [SMART on FHIR Death Certification app](https://github.com/nightingaleproject/fhir-death-refactor), and the [Canary Testing Framework](https://github.com/nightingaleproject/canary) using Docker + Docker Compose for **experimental purposes**.
 
 On startup:
 
